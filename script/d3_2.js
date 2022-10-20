@@ -3,7 +3,7 @@ var margin = {top: 10, right: 30, bottom: 40, left: 100},
     width = 460 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
+// append the svg object 
 var svg1 = d3.select("#lollipop")
   .append("svg")
     .attr("width", width + margin.left + margin.right)

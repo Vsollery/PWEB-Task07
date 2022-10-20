@@ -7,7 +7,7 @@ var width = 800
 // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
 var radius = Math.min(width, height) / 2 - margin
 
-// append the svg object to the div called 'my_dataviz'
+// append the svg 
 var svg = d3.select("#doughnat")
   .append("svg")
     .attr("width", width)
@@ -25,7 +25,7 @@ var color = d3.scaleOrdinal()
 
 // Compute the position of each group on the pie:
 var pie = d3.pie()
-  .sort(null) // Do not sort group by size
+  .sort(null) 
   .value(function(d) {return d.value; })
 var data_ready = pie(d3.entries(data))
 
