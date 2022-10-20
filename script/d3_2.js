@@ -13,7 +13,6 @@ var svg1 = d3.select("#lollipop")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-//d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum_header.csv", function(data) {
 d3.csv("https://raw.githubusercontent.com/Vsollery/Fruits/main/Fruits.csv", function(data) {
   // Add X axis
   var x = d3.scaleLinear()
