@@ -97,6 +97,7 @@ const pieChart = {
       google.visualization.arrayToDataTable(lineChart.data),
       lineChart.options
     );
+    
   };
   
 
